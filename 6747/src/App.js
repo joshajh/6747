@@ -1,35 +1,24 @@
-import React from 'react'
-import WavesurferPlayer from '@wavesurfer/react'
-
-const App = () => {
-  const [wavesurfer, setWavesurfer] = useState(null)
-  const [isPlaying, setIsPlaying] = useState(false)
-
-  const onReady = (ws) => {
-    setWavesurfer(ws)
-    setIsPlaying(false)
-  }
-
-  const onPlayPause = () => {
-    wavesurfer && wavesurfer.playPause()
-  }
-
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { LoadingProvider } from './components/LoadingContext';  
+import LoadingIndicator from './components/LoadingIndicator';
+import './App.css';
+import Wave from './components/Wave.jsx';
+function App() {
   return (
-    <>
-      <WavesurferPlayer
-        height={100}
-        waveColor="violet"
-        url="https://pssblwrlds.xyz:8010/radio.mp3"
-        onReady={onReady}
-        onPlay={() => setIsPlaying(true)}
-        onPause={() => setIsPlaying(false)}
-      />
-
-      <button onClick={onPlayPause}>
-        {isPlaying ? 'Pause' : 'Play'}
-      </button>
-    </>
-  )
+    <Router>
+      <LoadingProvider>
+        <LoadingIndicator />
+    <div className="App">
+      <header className="App-header">
+        <h1>
+                <span class="white">0203 835 3250</span></h1>
+        <Wave />
+      </header>
+    </div>
+    </LoadingProvider>
+    </Router>
+  );
 }
 
-export default App
+export default App;
