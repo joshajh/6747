@@ -24,10 +24,37 @@ body, html {
     font-weight: 500;
     font-style: normal;
     font-size: 12vw;
-    mix-blend-mode: overlay;
+    line-height: 1;
+    mix-blend-mode:screen;
+    opacity: 0.8;
     text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 1vh;
+    margin-top: 0;
     }
 
   .white {
     color: #fdfdef;
     }
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 1vh;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  font-family: "dinosaur", sans-serif;
+  width: 7rem;
+  height: 7rem;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 0.2rem solid rgba(255, 255, 255, 0.8);
+  mix-blend-mode: screen;
+}
+
+.question {
+  top: 2rem;
+  right: 2rem;
+  
+}

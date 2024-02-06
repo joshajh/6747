@@ -1,5 +1,4 @@
 import React, { useState } from 'react'; // Ensure to import React and useState hook
-import { ClipLoader } from 'react-spinners'; // Import ClipLoader from react-spinners
 import WavesurferPlayer from '@wavesurfer/react';
 
 const Wave = () => {
@@ -24,19 +23,20 @@ const Wave = () => {
   return (
     <>
       <WavesurferPlayer
-        height={100}
-        waveColor="#b2beb5"
-        progressColor="#000000"
-        barWidth={4}
+        height={80}
+        waveColor="rgba(196, 255, 196, 0.6)"
+        progressColor="rgba(255, 0, 0, 0.6)"
+        barWidth={6}
         barRadius={4}
         barGap={4}
         url="https://p-w.ams3.digitaloceanspaces.com/twilio/palestine-voice/comp/p1.mp3"
+        normalize={true}
         onReady={onReady}
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
       />
       <button onClick={onPlayPause}>
-        {isPlaying ? 'Pause' : 'Play'}
+        {isPlaying ? '⏸︎' : '⏵'}
       </button>
     </>
   );

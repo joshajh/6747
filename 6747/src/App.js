@@ -1,23 +1,31 @@
-import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { LoadingProvider } from './components/LoadingContext';  
-import LoadingIndicator from './components/LoadingIndicator';
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import Loading from './components/Loading.jsx';
 import Wave from './components/Wave.jsx';
+import ReactModal from 'react-modal';
+
 function App() {
+    const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate an API call
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3500);
+  }, []);
+
+  if (isLoading) {
+    return <Loading />;
+  }
+
   return (
-    <Router>
-      <LoadingProvider>
-        <LoadingIndicator />
-    <div className="App">
+    <div className="body">
       <header className="App-header">
         <h1>
                 <span class="white">0203 835 3250</span></h1>
-        <Wave />
       </header>
+        <Wave />
     </div>
-    </LoadingProvider>
-    </Router>
   );
 }
 
