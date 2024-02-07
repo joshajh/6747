@@ -1,23 +1,17 @@
 @import url("https://use.typekit.net/cvq0cqr.css");
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    font-size: 1vw;
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('https://p-w.ams3.digitaloceanspaces.com/6747/bg2.png');
-    background-size: cover;
-    background-position: bottom 0px right 0px;
-    background-color: black;
-    overflow: hidden;
-  }
+body {
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://p-w.ams3.digitaloceanspaces.com/6747/bg2.png');
+  background-size: cover;
+  background-position: bottom 0px right 0px;
+  background-color: black;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-size: 6vw;
+}
 
   h1 {
     font-family: "dinosaur", sans-serif;
@@ -37,16 +31,16 @@ body, html {
     color: #fdfdef;
     }
 
-button {
+.play-button {
   display: block;
   margin: auto;
   margin-top: 1vh;
   text-align: center;
   color: white;
   font-size: 4rem;
-  font-family: "dinosaur", sans-serif;
-  width: 7rem;
-  height: 7rem;
+  line-height: 1;
+  width: 8rem;
+  height: 8rem;
   background-color: transparent;
   border-radius: 50%;
   border: 0.2rem solid rgba(255, 255, 255, 0.8);

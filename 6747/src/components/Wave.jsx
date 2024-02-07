@@ -35,7 +35,7 @@ const Wave = () => {
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
       />
-      <button onClick={onPlayPause}>
+      <button className="play-button" onClick={onPlayPause}>
         {isPlaying ? '⏸︎' : '⏵'}
       </button>
     </>
