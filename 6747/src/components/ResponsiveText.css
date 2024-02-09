@@ -1,0 +1,28 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.responsive-text {
+    text-align: left;
+    margin: auto;
+    max-width: 90vw; /* Adjust based on your preference */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Preserve formatting */
+    
+    /* Initial column setup for mobile screens */
+    column-count: 1;
+    column-gap: 20px;
+  
+    /* Adjustments for larger screens */
+    @media (min-width: 768px) { /* For tablets */
+      column-count: 2;
+    }
+  
+    @media (min-width: 1024px) { /* For desktops */
+      column-count: 4;
+    }
+  }
+  

@@ -3,7 +3,7 @@ import React from "react"
 function Headline() {
 
 return (
-<h1 className="white">0203 835 3250</h1>
+<h1>0203 <span className="red">835</span><span className="green"> 3250</span></h1>
 );
 
 }

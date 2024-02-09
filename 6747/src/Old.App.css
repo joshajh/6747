@@ -1,0 +1,323 @@
+@import url("https://use.typekit.net/cvq0cqr.css");
+
+body {
+  display: flex;
+overflow-x: hidden;
+width: 100vw;
+height: 100vh;
+font-size: 5em;
+}
+
+.header-div {
+  top: 0;
+  width: 100vw;
+  display: inline-flex;
+  position:fixed;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+  h1 {
+    font-family: "urw-din", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10rem;
+    line-height: 1;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin-top: 40%;
+    }
+
+.play-button {
+  display: inline;
+  margin: auto;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 0.5rem;
+  line-height: 1;
+  margin-top: 6vh;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 0.1vw solid rgba(255, 255, 255, 0.8);
+}
+
+.question {
+  top: 2rem;
+  right: 2rem;
+}
+
+/* Start Figma */
+
+.Background {
+  background-color: #fdfdef;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  z-index: -10;
+}
+
+.Background .overlap-group-wrapper {
+  background-color: #fdfdef;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.Background .overlap-group {
+  height: 978px;
+  left: 43px;
+  position: relative;
+  top: 39px;
+  width: 1399px;
+}
+
+.Background .aisha-khalil-hamdan {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 117px;
+}
+
+.Background .sodfa-suleiman {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 642px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 147px;
+}
+
+.Background .omar-zakaria-ali-al {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 294px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 482px;
+}
+
+.Background .ahmed-wael-ahmed-al {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 934px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 268px;
+}
+
+.Background .joud-hamid-nasser-al {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 409px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 214px;
+}
+
+.Background .nima-ahmed-ahmed {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 135px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 678px;
+}
+
+.Background .israa-ali-hassan {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 1040px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+}
+
+.Background .abdul-rahman {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 632px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 546px;
+}
+
+.Background .omar-muhammad-fahmy {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 445px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 339px;
+}
+
+.Background .omar-ahmed-nawaf-al {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 979px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 456px;
+}
+
+.Background .wafaa-nabil-mansour {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 477px;
+}
+
+.Background .sama-ramez-abdel {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 485px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 39px;
+}
+
+.Background .ali-mahmoud-ayesh {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 57px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 98px;
+}
+
+.Background .sham-rabie-jumah-abu {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 227px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 869px;
+}
+
+.Background .element {
+  color: transparent;
+  font-family: "Inria Serif", Helvetica;
+  font-size: 180px;
+  font-weight: 400;
+  left: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 336px;
+  white-space: nowrap;
+}
+
+.Background .text-wrapper {
+  color: #2d2d2d;
+}
+
+.Background .span {
+  color: #000000;
+}
+
+.Background .text-wrapper-2 {
+  color: #357f15;
+}
+
+.Background .text-wrapper-3 {
+  color: #8b0000;
+}
+
+.Background .manal-jadallah-abdul {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 647px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 177px;
+}
+
+.Background .sarah-bilal-muhammad {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 220px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.Background .mahmoud-ayesh {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 1105px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 510px;
+}
+
+.Background .saeed-sami-ahmed-al {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 556px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 374px;
+}
