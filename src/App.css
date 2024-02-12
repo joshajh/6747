@@ -117,7 +117,7 @@ padding-bottom: 1rem;
     width: 50%; /* Initial width for desktop */
     max-width: 600px; /* Ensures modal does not get too large on wider screens */
     height: auto; /* Allows the height to adjust based on content */
-    max-height: 95vh; /* Ensures modal content is within viewport height, making it more accessible */
+    max-height: 90vh; /* Ensures modal content is within viewport height, making it more accessible */
     overflow-y: auto; /* Scroll inside modal if content exceeds its max-height */
     background-color: white;
     padding: 20px;
