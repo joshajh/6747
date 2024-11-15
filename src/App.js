@@ -37,7 +37,7 @@ function App() {
     </Helmet>
       <div className="App">
         <header className="App-header">
-          <h1><span className='title'>6,747 Names</span></h1><h2 span className='number'>0203 835 3250</h2><span className='icons'><AudioPlayer src="https://p-w.ams3.digitaloceanspaces.com/twilio/palestine-voice/comp/p1.mp3" /><span className='spacer'></span><FaQuestionCircle onClick={openModal} size={30} style={{ cursor: 'pointer' }} />
+          <h1><span className='title'>6,747 Names</span></h1><h2 span className='number'>0203 835 3250</h2><span className='icons'><AudioPlayer src="https://p-w.lon1.cdn.digitaloceanspaces.com/6747/clip.mp3" /><span className='spacer'></span><FaQuestionCircle onClick={openModal} size={30} style={{ cursor: 'pointer' }} />
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <p><span className='worlds'>This is a list of the names and ages of the first 6,747 people killed in Israel's war on Gaza. The names are read by the composited voice of several young Gazan men.</span></p>
         <p>The voice is built from recordings of interviews with teenagers and young adults about their experiences of detention at the hands of the Israeli state. The interviews were conducted by Palestinian news outlets between 2007 and around 2019. The recordings were collated and pre-processed, then used as a training corpus for the creation of a single composite using the <a href="https://elevenlabs.io/" target='blank'>ElevenLabs</a> speech synthesis model. Once the composite was complete, the ElevenLabs text-to-speech engine was used to produce the vocal performance.</p>
